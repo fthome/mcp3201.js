@@ -2,7 +2,7 @@
 
 A node.js module for interfacing the MCP3201 analog/digital converter.
 
-protocol : HSPI
+This library uses the package [pi-spi](https://github.com/natevw/pi-spi) that enable the comunication with SPI devices in most commmon Linux SBCs. Raspberry Pi, C.H.I.P., BeagleBone, Orange Pi,  or Intel Edison are supported by this package.
 
 ## Installation
 
