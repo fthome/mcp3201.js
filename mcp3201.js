@@ -21,7 +21,7 @@ function startPoll (callback) {
     }, timeout);
 }
 
-var Mcp3008 = function (dev) {
+var Mcp3201 = function (dev) {
     device = dev || device;
     spi = SPI.initialize(device);
 
